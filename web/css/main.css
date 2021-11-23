@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+:root {
+  --primary-color: red ;
+}
+
+body {
+  background: f2f2f2;
+  margin: 0;
+  font-family: 'Popins';
+}
+
+.navigationbar {
+  background: white;
+  padding: 1em;
+}
+
+.navigationbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e90404;
+  font: size 1.2em;
+}
+
+.navigationbar .logo span {
+  color: var(--primary-color);
+}
+
+.navigationbar nav {
+  display: none;
+}
+
+.navigationbar nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+  list-style-type: none;
+}
+
+.navigationbar nav .mobile-menu {
+  cursor: pointer;
+}
+
+.navigationbar a {
+  color: #444444;
+}
+
+.navigationbar ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */

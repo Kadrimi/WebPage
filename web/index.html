@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navigationbar"> 
+        <div id="logo" class="sm-span-6 md-span-8 auto span-2 inline">
+
+            <div class="first_logo">
+            <a href="/">
+              <img src="images/logo.jpg" itemprop="logo" style="max-width: 250px; text-align: center !important;" >
+            </a>
+            </div>
+              
+            <!-- <div class="second_logo">
+              <a href="/">
+                <img src="images/logo.jpg" itemprop="logo">
+              </a>
+              </div>
+              
+            
+            </div>    logo e dyte kur shkon teksti
+           -->  
+        </div>
+        <div class="container"><!--hamburger logo / menuja -->
+            <a class="logo" href="https://www.youtube.com/channel/UCijiNxASxOEZmzssDT39-xg">Go to <span>BitALlbania</span></a>
+            
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation"> <!--per ta bere visible ne html foton e menuse-->
+
+            <nav> <!-- featuret e mobilit  -->
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">HOME</a> </li>
+                    <li><a href="#">FEATURES</a> </li>
+                    <li><a href="#">PRICING</a> </li>
+
+
+                </ul>
+
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a> </li>
+                    <li class="go-premium-cta"><a href="#">Go Premium</a> </li><!-- per ti dhen dizajn ndryshe -->
+                
+
+
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+    <section class="HERO">
+        <div class="contanier"> 
+            <div class="left-column">
+                
+               
+                <div class="hero-cta" > 
+                   
+                <p class="subhead">Its Nitty &amp; Gritty </p>
+                <h1>A Task App That Doesn't Stink</h1>
+    
+    
+                        <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="images/watch.svg" alt="Watch a video" >Watch a video
+                    </a>
+               </div>
+                    <div class="hero2-cta">
+               
+
+                       <img src="images/illustration.svg" class="hero-img" alt="illustration" >
+                    </div>
+            </div>
+                
+
+        </div>
+        
+
+
+    </section>
+
+    <section class="features-section">
+        <div class="contanier">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS</li>
+                <li>Confetti Explosions</li>
+                <li>Social Media</li>
+                <li>Real time collaburation</li>
+                <li>Other awesome features-section</li>
+                
+            </ul>
+            <img src="images/holding-phone.jpg" alt="phone">
+
+        </div>
+
+    </section>
+    <section class="testimonial-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/person.jpg" alt="first">
+
+                    <blockquote>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    </blockquote>
+                    <cite>-Lorem Ipsum</cite>
+
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="second">
+
+                    <blockquote>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    </blockquote>
+                    <cite>-Lorem Ipsum</cite>
+
+                </li>
+                <li>
+                    <img src="images/person.jpg" alt="third">
+
+                    <blockquote>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    </blockquote>
+                    <cite>-Lorem Ipsum</cite>
+
+                </li>
+            
+            </ul>
+
+        </div>
+    </section>
+
+    <div class="contact-section">
+        <div class="container">
+            <h2> CONTACT
+
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <input type="submit" class="send-message-cta" value="Send message">
+
+            </form>
+            </h2>
+
+        </div>
+        <div class="contact-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95871.29875778558!2d19.747783527239665!3d41.33108987569574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310470fac5db%3A0x40092af10653720!2zVGlyYW7DqywgU2hxaXDDq3JpYQ!5e0!3m2!1ssq!2s!4v1626184761952!5m2!1ssq!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        </div>
+
+    </div>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body>
+</html>
+
+
